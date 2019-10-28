@@ -22,7 +22,7 @@ RUN apk update \
  && gem install async-http -v 0.46.3 \
  && gem install fluentd -v 1.7.4 \
  && gem install bigdecimal -v 1.3.5 \
- && gem install fluentd-plugin-s3 -v 1.2.0 \
+ && gem install fluent-plugin-s3 -v 1.2.0 \
  && gem install fluent-plugin-aws-elasticsearch-service -v 2.1.0 \
  && apk del .build-deps \
  && rm -rf /tmp/* /var/tmp/* /usr/lib/ruby/gems/*/cache/*.gem
