@@ -25,6 +25,7 @@ RUN apk update \
  && gem install fluent-plugin-s3 -v 1.2.0 \
  && gem install fluent-plugin-aws-elasticsearch-service -v 2.1.0 \
  && gem install fluent-plugin-kubernetes_metadata_filter -v 1.2.2 \
+ && gem install fluent-plugin-multi-format-parser  -v 1.0.0 \
  && apk del .build-deps \
  && rm -rf /tmp/* /var/tmp/* /usr/lib/ruby/gems/*/cache/*.gem
 
